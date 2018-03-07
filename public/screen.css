@@ -8,9 +8,16 @@ body {
   font: 16px / 1 sans-serif;
 }
 
-* {
-  border: 1px dotted red;
+a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
 }
+
+/* * {
+  border: 1px dotted red;
+} */
 
 .flex-nav {
   display: flex;
@@ -63,4 +70,12 @@ width: 100%;
 
 .cat-data {
 
+}
+
+.artist {
+  width: 10%;
+}
+
+.hangright {
+  text-align: right;
 }
