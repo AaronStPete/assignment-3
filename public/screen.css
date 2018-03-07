@@ -7,3 +7,30 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+* {
+  border: 1px dotted red;
+}
+
+.flex-nav {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.top-nav {
+  /* height: 2.5%;   */
+}
+
+.nav-logo {
+  flex: 7;
+  padding-right: 20%;
+  max-width: 10%;
+}
+
+.nav-btn {
+  flex: 1;
+  float: right;
+}
