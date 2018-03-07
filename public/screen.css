@@ -79,3 +79,16 @@ width: 100%;
 .hangright {
   text-align: right;
 }
+
+.bottom-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  border-top: 1px solid grey ;
+  padding-top: 1em;
+}
+
+.tinylogo {
+  flex-grow: 12;
+  height: 14px;
+}
