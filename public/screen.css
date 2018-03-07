@@ -22,15 +22,40 @@ body {
 
 .top-nav {
   /* height: 2.5%;   */
+  background-color: lightgrey;
+  padding: .5em;
 }
 
 .nav-logo {
-  flex: 7;
+  flex-grow: 7;
   padding-right: 20%;
-  max-width: 10%;
+  /* max-width: 10%; */
 }
 
 .nav-btn {
-  flex: 1;
-  float: right;
+  flex-grow: 1;
+}
+
+.cat-container {
+width: 25%;  
+border: 1px lightgray solid;
+margin: .5em;
+padding: .5em;
+font-weight: 600;
+
+}
+
+.flex-cat-data {
+  display: flex;
+  flex-direction: row ;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.cat-pic {
+width: 100%;
+}
+
+.cat-data {
+
 }
