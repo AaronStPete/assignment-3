@@ -16,7 +16,7 @@ body {
   display: flex;
   flex-direction: row;
   max-width: 100%;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
 }
 
@@ -36,13 +36,18 @@ body {
   flex-grow: 1;
 }
 
+.cat-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .cat-container {
 width: 25%;  
 border: 1px lightgray solid;
 margin: .5em;
 padding: .5em;
 font-weight: 600;
-
+color: grey;
 }
 
 .flex-cat-data {
