@@ -35,22 +35,24 @@ a {
 
 .nav-logo {
   flex-grow: 7;
-  padding-right: 20%;
+  padding: .5em 20% .5em .5em;
   /* max-width: 10%; */
 }
 
 .nav-btn {
   flex-grow: 1;
+  padding: .5em;
 }
 
 .cat-grid {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 .cat-container {
 width: 25%;  
-border: 1px lightgray solid;
+min-width: 15em;
 margin: .5em;
 padding: .5em;
 font-weight: 600;
@@ -62,18 +64,25 @@ color: grey;
   flex-direction: row ;
   align-items: flex-end;
   justify-content: space-between;
+  padding-bottom: .5em;
+  border-bottom: 1px lightgray solid;
+  align-content: center;
 }
 
 .cat-pic {
 width: 100%;
+border: 1px lightgrey solid;
+padding: .5em;
 }
 
 .cat-data {
-
+  margin-right: -1em;
+  
 }
 
 .artist {
   width: 10%;
+  border-radius: 10%;
 }
 
 .hangright {
@@ -83,6 +92,7 @@ width: 100%;
 .bottom-nav {
   display: flex;
   flex-direction: row;
+  align-content: space-around;
   justify-content: space-between; 
   border-top: 1px solid grey ;
   padding-top: 1em;
